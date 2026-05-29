@@ -5,10 +5,15 @@
 .api_keys
 api_keys.txt
 secrets/
-*_secret*
-*_credentials*
+secret_keys.*
+*.secret
+*.secrets
 credentials.json
+*_credentials.json
+*_credentials.txt
 config.local.*
+*.pem
+*.key
 
 # Python
 __pycache__/
