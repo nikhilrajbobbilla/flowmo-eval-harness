@@ -26,7 +26,7 @@ jobs:
         run: python scripts/scan_secrets.py
 
       - name: Unit tests
-        run: pytest -q
+        run: python -m pytest -q
 
       - name: Eval gate (fixture mode)
         run: python -m eval.run_eval --fixtures
