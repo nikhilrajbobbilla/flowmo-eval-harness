@@ -1,0 +1,7 @@
+{
+  "be_python_api": ["python", "fastapi", "postgresql", "redis", "docker"],
+  "ml_ranking_role": ["python", "pytorch", "lightgbm", "xgboost", "a/b testing", "offline evaluation", "spark", "tensorflow"],
+  "frontend_react_role": ["typescript", "react", "next.js", "tailwind css"],
+  "data_eng_aws": ["python", "pyspark", "aws glue", "aws lambda", "s3", "airflow", "terraform"],
+  "genai_app_role": ["python", "openai api", "rag", "vector database", "prompt engineering", "evaluation harness"]
+}

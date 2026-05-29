@@ -1,0 +1,10 @@
+{
+  "_comment": "Per-metric floors. Eval fails if any aggregate metric drops below its floor on the golden set. Tune in PRs - regressions should be intentional.",
+  "min_precision": 0.85,
+  "min_recall": 0.80,
+  "min_f1": 0.85,
+  "min_f05": 0.85,
+  "max_prompt_fix_rate": 0.10,
+  "max_retrieval_issue_rate": 0.15,
+  "max_training_gap_rate": 0.10
+}
