@@ -22,11 +22,18 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Debug - env and installed packages
+        run: |
+          python -V
+          pip list
+          pwd
+          ls -la
+
       - name: Scan for secrets
         run: python scripts/scan_secrets.py
 
       - name: Unit tests
-        run: python -m pytest -q
+        run: python -m pytest -v
 
       - name: Eval gate (fixture mode)
         run: python -m eval.run_eval --fixtures
